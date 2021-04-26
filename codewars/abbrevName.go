@@ -1,6 +1,7 @@
 package codewars
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -15,4 +16,8 @@ func AbbrevName2(name string) string {
 		parts = append(parts, part[:1])
 	}
 	return strings.Join(parts, ".")
+}
+
+func AbbrevName3(name string) string {
+	return fmt.Sprintf("%c.%c", strings.ToUpper(name)[0], strings.ToUpper(name)[strings.Index(name, " ")+1])
 }
