@@ -1,7 +1,6 @@
-package main
+package isTriangle
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -31,9 +30,4 @@ func IsTriangle2(a, b, c int) bool {
 	} else {
 		return false
 	}
-}
-
-func main() {
-	fmt.Println(IsTriangle1(5, 1, 2))
-	fmt.Println(IsTriangle2(5, 1, 2))
 }
