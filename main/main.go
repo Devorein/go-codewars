@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 
-	// "github.com/Devorein/go-codewars/isTriangle"
-	"github.com/Devorein/go-codewars/repeatStr"
+	"github.com/Devorein/go-codewars/codewars"
 )
 
 func main() {
-	fmt.Println(repeatStr.RepeatStr(5, 1, 2))
+	fmt.Println(codewars.RepeatStr(5, "A"))
+	fmt.Println(codewars.IsTriangle1(5, 1, 2))
+	fmt.Println(codewars.IsTriangle2(5, 1, 2))
 }

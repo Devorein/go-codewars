@@ -1,4 +1,4 @@
-package isTriangle
+package codewars
 
 import (
 	"sort"

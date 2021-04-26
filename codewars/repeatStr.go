@@ -1,4 +1,4 @@
-package repeatStr
+package codewars
 
 func RepeatStr(repetitions int, value string) string {
 	result := ""
