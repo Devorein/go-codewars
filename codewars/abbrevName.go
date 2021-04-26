@@ -21,3 +21,14 @@ func AbbrevName2(name string) string {
 func AbbrevName3(name string) string {
 	return fmt.Sprintf("%c.%c", strings.ToUpper(name)[0], strings.ToUpper(name)[strings.Index(name, " ")+1])
 }
+
+func AbbrevName4(name string) string {
+	x := string(name[0]) + "."
+	for i := 0; i < len(name); i++ {
+		if string(name[i]) == " " {
+			x = x + name[i+1:i+2]
+			break
+		}
+	}
+	return x
+}

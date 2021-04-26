@@ -13,4 +13,5 @@ func main() {
 	fmt.Println(codewars.AbbrevName1("Sam Harris"))
 	fmt.Println(codewars.AbbrevName2("Sam Harris"))
 	fmt.Println(codewars.AbbrevName3("Sam Harris"))
+	fmt.Println(codewars.AbbrevName4("Sam Harris"))
 }
