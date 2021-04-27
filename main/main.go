@@ -18,5 +18,6 @@ func main() {
 	// fmt.Println(codewars.RowSumOddNumbers(13))
 	// fmt.Println(codewars.CapitalizeEvenOdd("codingisafunactivity"))
 	// fmt.Println(codewars.Race(720, 850, 70))
-	fmt.Println(codewars.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"))
+	// fmt.Println(codewars.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"))
+	fmt.Println(codewars.OrderedCount("abracadabra"))
 }
