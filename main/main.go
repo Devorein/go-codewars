@@ -17,5 +17,6 @@ func main() {
 	// fmt.Println(codewars.FindOdd([]int{20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5}))
 	// fmt.Println(codewars.RowSumOddNumbers(13))
 	// fmt.Println(codewars.CapitalizeEvenOdd("codingisafunactivity"))
-	fmt.Println(codewars.Race(720, 850, 70))
+	// fmt.Println(codewars.Race(720, 850, 70))
+	fmt.Println(codewars.PrinterError("aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"))
 }
