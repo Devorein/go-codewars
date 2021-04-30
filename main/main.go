@@ -24,6 +24,6 @@ func main() {
 	// fmt.Println(codewars.DirReduction2([]string{"EAST", "EAST", "WEST", "NORTH", "WEST", "EAST", "EAST", "SOUTH", "NORTH", "WEST"}))
 	// fmt.Println(codewars.SalesmanTravel(
 	// 	`123 Main Street St. Louisville OH 43071, 432 Main Long Road St. Louisville OH 43071,786 High Street Pollocksville NY 56432`, "EX 34342"))
-	fmt.Println(codewars.ToNato1("go for it!"))
-	fmt.Println(codewars.ToNato2("go for it!"))
+	// fmt.Println(codewars.ToNato1("go for it!"))
+	fmt.Println(codewars.CamelCase(""))
 }
